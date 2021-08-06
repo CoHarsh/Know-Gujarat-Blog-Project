@@ -1,0 +1,333 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+   
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/mainphoto1.jpg');
+    animation: bgimg infinite 30s ease-in-out;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 5px 20px 100px black;
+    transition: 2s ease-in;
+}
+
+@keyframes bgimg
+{
+    0%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/girnationalpark.jpg');}
+    20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/Dwarkamandir.jpg');}
+    40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/sou.jpg');}
+    60%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/ronk2.png');}
+    80%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/somathtemple.png');}
+    100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/ahmedabad.png');}
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    height: 15vh;
+    font-weight: 900;
+
+}
+
+#menu a
+{
+    text-decoration: none;
+    width: 20%;
+    font-size: 25px;
+    color: white;
+}
+
+#menu a:hover
+{
+    text-shadow: 5px 5px 50px white;
+    color: #00b894;
+}
+
+nav #menu a:first-child
+{
+    color: #00b894;
+}
+
+#menu
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 800;
+    text-shadow:2px 1px 50px black ;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 3px black;
+}
+
+section a
+{
+    border-radius: 4px;
+    padding: 12px 25px;
+    outline: none;
+    font-weight: 1000;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#btnone
+{
+    background: #00b894;
+    transition: .5s ease;
+}
+
+#btntwo
+{
+    background: white;
+    color: black;
+}
+
+#btnone:hover{
+    background: white;
+    color: black;
+}
+
+.change-content::after
+{
+    content: '';
+    animation: changetemp 30s infinite ease-in-out;
+    color: #00b894;
+}
+
+@keyframes changetemp
+{
+    0%{content: 'Gir Nation Park';}
+    20%{content: 'Dwarka';}
+    40%{content: 'Statu of unity';}
+    60%{content: 'Kutch & Bhuj';}
+    80%{content: 'Somnath';}
+    100%{content: 'Ahmedabad';}
+}
+
+#twosection
+{
+    margin: 100px 0 0 0;
+    width: 70%;
+    height: 70vh;
+    background: rgb(203, 203, 241);
+    box-shadow: 5px 20px 100px 5px rgb(158, 158, 206);
+    text-align: center;
+    padding: 100px 80px 0 80px;
+    border-radius: 30px;
+    border-top: 10px solid rgb(156, 180, 231);
+    border-bottom: 10px solid rgb(156, 180, 231);
+    text-overflow:clip;
+}
+
+#content1
+{
+    display: flex;
+    justify-content: center;
+}
+
+#guj
+{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#btn3
+{
+    background: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    outline: none;
+    font-weight: 1000;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    box-shadow: 2px 2px 3px black;
+    transition: .5s ease;
+
+}
+
+#main
+{
+    min-height: calc(100vh - 211px - 58px);
+}
+
+#btn3div
+{
+    margin: 50px 0 0 0;
+}
+
+#btn3:hover{
+    background: #00b894;
+    color: white;
+    box-shadow: 2px 2px 3px white;
+}
+
+footer{
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+#titleblog
+{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 0 0;
+    font-size: 72px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 5px black;
+    align-items: center;
+}
+
+#blog1
+{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
+
+#img1
+{
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 50px rgb(0, 0, 0);
+}
+
+#imgleft
+{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#rightblog
+{
+    width: 30%;
+    background: rgb(187, 240, 240);
+    margin: 0 200px 0 0;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 15px;
+    
+}
+
+#title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 50px 0 0 0;
+}
+
+#contentright
+{
+    text-align: center;
+    padding: 20px 10px 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+.readmore
+{
+    display: flex;
+    margin: 30px 0 0 0;
+    padding: 12px 25px;
+    background: #00b893a1;
+    color: white;
+    transition: 0.5s ease;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.readmore:hover
+{
+    background: white;
+    color: black;
+}
+
+#readmoref
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
