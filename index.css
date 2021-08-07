@@ -13,7 +13,7 @@ header
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./images/mainphoto1.jpg');
     animation: bgimg infinite 30s ease-in-out;
     background-size: cover;
-    width: 100%;
+    width: 84.3em;
     height: 120vh;
     background-repeat: no-repeat;
     color: white;
@@ -78,7 +78,7 @@ nav #menu a:first-child
 }
 
 main{
-    width: 100%;
+    width: 80em;
     height: 85vh;
     display: flex;
     justify-content: center;
@@ -156,11 +156,12 @@ section a
     100%{content: 'Ahmedabad';}
 }
 
+
+
 #twosection
 {
     margin: 100px 0 0 0;
-    width: 70%;
-    height: 70vh;
+    height: 31em;
     background: rgb(203, 203, 241);
     box-shadow: 5px 20px 100px 5px rgb(158, 158, 206);
     text-align: center;
@@ -168,13 +169,18 @@ section a
     border-radius: 30px;
     border-top: 10px solid rgb(156, 180, 231);
     border-bottom: 10px solid rgb(156, 180, 231);
-    text-overflow:clip;
+    overflow: hidden;
+    width: 70em; 
+    
+    
 }
 
 #content1
-{
+{ 
+    width: 83.3em;
     display: flex;
     justify-content: center;
+    
 }
 
 #guj
@@ -200,11 +206,6 @@ section a
 
 }
 
-#main
-{
-    min-height: calc(100vh - 211px - 58px);
-}
-
 #btn3div
 {
     margin: 50px 0 0 0;
@@ -218,7 +219,7 @@ section a
 
 footer{
     margin: 50px 0 0 0;
-    width: 100%;
+    width: 84.3em;
     height: 10vh;
     background: rgba(0,0,0,0.5);
     display: flex;
@@ -227,7 +228,10 @@ footer{
     color: white;
 }
 
-
+#titleflex
+{
+    width: 83.3em;
+}
 
 #titleblog
 {
@@ -245,8 +249,10 @@ footer{
     margin: 50px 0 0 0;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 50vh;
+    align-items: center;
+    width: 84.3em;
+    height: 25em;
+    overflow: hidden;
 }
 
 #img1
@@ -254,7 +260,7 @@ footer{
     width: 70%;
     height: 100%;
     border-radius: 25px;
-    box-shadow: 2px 2px 50px rgb(0, 0, 0);
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
 }
 
 #imgleft
@@ -268,11 +274,14 @@ footer{
 
 #rightblog
 {
-    width: 30%;
+    width: 30em;
     background: rgb(187, 240, 240);
-    margin: 0 200px 0 0;
+    margin: 0 150px 0 0;
     box-shadow: 2px 2px 30px black;
-    border-radius: 15px;
+    border-radius: 30px;
+    border-top: 10px solid rgb(92, 235, 235);
+    border-bottom: 10px solid rgb(92, 235, 235);
+    height: 22em;
     
 }
 
@@ -291,10 +300,11 @@ footer{
     padding: 20px 10px 0 10px;
     font-size: 17px;
     font-weight: 600;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
+
     
 }
+
 
 .readmore
 {
